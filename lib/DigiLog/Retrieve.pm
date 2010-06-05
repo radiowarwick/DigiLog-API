@@ -13,9 +13,10 @@
 #   You should have received a copy of the GNU General Public License
 #   along with DigiLog-API.  If not, see <http://www.gnu.org/licenses/>.
 
-package DigiLogAPI::Config;
+package DigiLog::Retrieve;
 use strict;
-use warnings;
+
+use DigiLog::Config;
 
 sub new {
     my $class = shift;
@@ -23,9 +24,9 @@ sub new {
     return $self;
 }
 
-sub get_location {
-    my ($self) = @_;
-    return $self->{location};
+sub available_times {
+    
 }
+
 
 1;
