@@ -25,7 +25,7 @@ sub new {
 }
 
 sub available_times {
-    
+
 }
 
 

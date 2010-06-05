@@ -13,19 +13,16 @@
 #   You should have received a copy of the GNU General Public License
 #   along with DigiLog-API.  If not, see <http://www.gnu.org/licenses/>.
 
-package DigiLog:Config;
+package DigiLog::Config;
 use strict;
 use warnings;
 
 sub new {
-    my $class = shift;
+    my ($class, $location, $length) = @_;
     my $self = bless {}, $class;
+    $self->{location} = $location;
+    $self->{length} = $length;
     return $self;
-}
-
-sub get_location {
-    my ($self) = @_;
-    return $self->{location};
 }
 
 1;
