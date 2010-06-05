@@ -1,11 +1,17 @@
 DigiLog-API
 ============
 
-This project provides an API onto the files recorded by DigiLog, a free audio
+About
+------
+
+This project provides access to the files recorded by DigiLog, a free audio
 logging system based upon DarkLog and available from Radio Warwick's software
 pages at http://www.broadcastsoftware.org
 
 DigiLog-API is licenced under the GNU General Public Licence. For more details
 please see the COPYING file that should have shipped with this
+
+Author
+-------
 
 (C) Chris Hawley [chris@phenorbital.co.uk]
