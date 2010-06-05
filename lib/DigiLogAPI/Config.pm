@@ -13,7 +13,7 @@
 #   You should have received a copy of the GNU General Public License
 #   along with DigiLog-API.  If not, see <http://www.gnu.org/licenses/>.
 
-package DigiLogAPI::Retrieve;
+package DigiLogAPI::Config;
 use strict;
 use warnings;
 
@@ -23,5 +23,9 @@ sub new {
     return $self;
 }
 
+sub get_location {
+    my ($self) = @_;
+    return $self->{location};
+}
 
 1;
